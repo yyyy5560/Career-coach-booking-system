@@ -1,0 +1,25 @@
+server:
+  port: 41925
+  servlet:
+    context-path: /api
+spring:
+  application:
+    name: Career-coach-booking-system
+  datasource:
+    url: jdbc:mysql://10.1.1.220:3306/ccbs?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: 1K4Knklk183
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    jdbc-type-for-null: NULL
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.ccbs.careercoachbookingsystem.entity
+
+
+wisp:
+  cal:
+    baseUrl: https://cal.com/zzz-y-8nllo5
+    cancelUrl: https://cal.com/booking/{booking_uid}?cancel=true
