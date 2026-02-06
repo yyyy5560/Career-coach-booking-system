@@ -8,9 +8,9 @@
 
 
 
-- **语言**: Java (JDK )
+- **语言**: **Java** (JDK  21)
 - **框架**: **Spring Boot 3.4.3** (Web, MyBatis)
 - **数据库**: **MySQL 8.0**
-- **工具**: Maven, Git
+- **工具**: **Maven, Git**
 
  
